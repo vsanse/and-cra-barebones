@@ -1,9 +1,10 @@
 {
-  "name": "and-cra-barebones",
+  "name": "topramen",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "antd": "^4.0.0",
+    "antd": "3.26.12",
+    "axios": "^0.19.2",
     "babel-plugin-import": "^1.13.0",
     "customize-cra": "^0.9.1",
     "install": "^0.13.0",
@@ -16,7 +17,9 @@
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
-    "redux": "^4.0.5"
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-app-rewired start",
